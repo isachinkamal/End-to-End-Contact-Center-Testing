@@ -1,0 +1,69 @@
+Below is a very basic system design for a contact center application - It explains the end to end journey for an interaction wherein a caller places a call to the contact center and how the call reaches to an agent.
+
+
+                                 ┌───────────────────────┐
+                                 │  Customer (Caller)    │
+                                 └─────────┬─────────────┘
+                                           │
+                                           ▼
+                            ┌──────────────────────────────┐
+                            │ Telephony Provider / SIP     │◄──── Calls/VoIP
+                            │ (e.g., Twilio, AWS Connect)  │
+                            └──────────┬───────────────────┘
+                                       │
+                                       ▼
+                            ┌──────────────────────────────┐
+                            │ IVR System                    │
+                            │ (Interactive Voice Response) │
+                            └──────────┬───────────────────┘
+                                       │
+                          ┌────────────▼─────────────┐
+                          │ Call Routing Engine       │
+                          │ (Skills, Language, etc.)  │
+                          └───────┬─────────────┬─────┘
+                                  │             │
+                                  ▼             ▼
+                    ┌────────────────┐   ┌────────────────┐
+                    │ Agent Pool A   │   │ Agent Pool B   │
+                    │ (e.g., Sales)  │   │ (e.g., Support)│
+                    └────┬───────────┘   └─────┬──────────┘
+                         │                      │
+                         ▼                      ▼
+           ┌─────────────────────┐     ┌──────────────────────┐
+           │ Agent Desktop UI    │     │ Agent Desktop UI     │
+           │ (Web/Thin Client)   │     │ (Integrated Softphone│
+           └──────────┬──────────┘     └────────────┬─────────┘
+                      │                             │
+                      ▼                             ▼
+             ┌───────────────────────┐   ┌────────────────────────┐
+             │ CRM / Case Management │   │ Knowledge Base / Tools │
+             └──────────┬────────────┘   └─────────────┬──────────┘
+                        │                              │
+                        ▼                              ▼
+             ┌───────────────────────┐       ┌────────────────────┐
+             │ Reporting & Analytics │       │ Feedback / Surveys │
+             └───────────────────────┘       └────────────────────┘
+
+                        ▲
+                        │
+             ┌──────────┴──────────┐
+             │ Call Recording &    │
+             │ Quality Monitoring  │
+             └─────────────────────┘
+
+
+******************** Definition for each of the components in the above diagram *****************************
+
+1. Telephony/SIP : Telephony/SIP handles inbound/outbound calls via traditional phone networks (PSTN) or internet-based VoIP. It establishes call connections, manages audio streams, and integrates with IVR/routing systems. SIP (Session Initiation Protocol) enables VoIP features like call forwarding and conferencing. Critical for ensuring call quality, scalability, and failover support.
+
+2. IVR (Interactive Voice Response) : IVR automates call handling by playing prerecorded menus (e.g., "Press 1 for support") and processes customer inputs (touch-tone or voice). Uses NLP for speech recognition. Reduces agent workload by resolving simple queries (e.g., balance checks) or routing calls intelligently.
+
+3. Routing Engine : Determines optimal agent assignment using rules (skills-based, priority, queue time). Integrates with workforce management tools to balance load. Supports omnichannel routing (calls, chats, emails) for unified customer experiences.
+
+4. Agent Desktop UI : Unified interface for agents with call controls, CRM data, and tools like call scripting. Often customizable (e.g., Salesforce Lightning). Boosts efficiency with single-pane workflows and real-time assistance (AI suggestions).
+
+5. CRM Integration : Syncs call context with CRM platforms (e.g., Salesforce, HubSpot). Auto-populates customer history, enabling personalized service. Triggers post-call actions (ticket creation, follow-ups).
+
+6. Analytics : Tracks KPIs (e.g., wait time, first-call resolution) via dashboards. Uses AI for predictive analytics (e.g., call volume forecasting). Drives data-driven optimizations.
+
+7. Call Recording & QM : Records calls for compliance (e.g., PCI) and quality monitoring. AI tools analyze tone/sentiment to flag training opportunities. Integrates with eLearning systems.
