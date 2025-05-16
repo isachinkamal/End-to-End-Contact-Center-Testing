@@ -67,3 +67,4 @@ Below is a very basic system design for a contact center application - It explai
 6. Analytics : Tracks KPIs (e.g., wait time, first-call resolution) via dashboards. Uses AI for predictive analytics (e.g., call volume forecasting). Drives data-driven optimizations.
 
 7. Call Recording & QM : Records calls for compliance (e.g., PCI) and quality monitoring. AI tools analyze tone/sentiment to flag training opportunities. Integrates with eLearning systems.
+
