@@ -7,20 +7,31 @@ This repo will contain topics including :
 1. Fundamentals of Contact Center Testing
 
     What is Contact Center Testing?
+   
     Why is Contact Center Testing Important?
+   
     Key Components of a Contact Center System
+   
     Differences Between Traditional and Cloud-Based Contact Center Testing
+   
     Common Challenges in Contact Center Testing
+   
     Best Practices for Effective Contact Center Testing
+   
     How to Build a Contact Center Testing Strategy
+   
     Role of QA in Contact Center Operations
+   
     Understanding Contact Center Architecture for Testing
+   
     How Often Should You Test Your Contact Center?
 
-2. Types of Contact Center Testing
+3. Types of Contact Center Testing
 
     Functional Testing for Contact Centers
+   
     Performance Testing for High Call Volumes
+   
     Load Testing to Ensure Scalability
     Stress Testing for Peak Traffic Scenarios
     Security Testing for Contact Centers
@@ -30,7 +41,7 @@ This repo will contain topics including :
     Integration Testing (CRM, IVR, Chatbots, etc.)
     Accessibility Testing for Inclusive Customer Support
 
-3. Testing Different Contact Center Channels
+5. Testing Different Contact Center Channels
 
     Testing Voice Call Systems (PSTN, VoIP)
     Testing IVR (Interactive Voice Response) Systems
@@ -43,7 +54,7 @@ This repo will contain topics including :
     Testing Omnichannel Customer Journeys
     Testing Self-Service Portals & Knowledge Bases
 
-4. Automation in Contact Center Testing
+6. Automation in Contact Center Testing
 
     Automated vs. Manual Testing for Contact Centers
     Best Test Automation Tools for Contact Centers
@@ -56,7 +67,7 @@ This repo will contain topics including :
     Sentiment Analysis Testing Automation
     Automated Reporting & Analytics for QA Teams
 
-5. Performance & Load Testing
+7. Performance & Load Testing
 
     How to Simulate 10,000+ Concurrent Calls
     Best Load Testing Tools for Contact Centers
@@ -69,7 +80,7 @@ This repo will contain topics including :
     Auto-Scaling Testing for Cloud Contact Centers
     Real User Monitoring (RUM) for Performance
 
-6. Security & Compliance Testing
+8. Security & Compliance Testing
 
     Penetration Testing for Contact Centers
     Encryption Testing for Call Recordings
