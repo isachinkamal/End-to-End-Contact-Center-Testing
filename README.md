@@ -33,13 +33,21 @@ This repo will contain topics including :
     Performance Testing for High Call Volumes
    
     Load Testing to Ensure Scalability
+   
     Stress Testing for Peak Traffic Scenarios
+   
     Security Testing for Contact Centers
+   
     Compliance Testing (GDPR, HIPAA, PCI-DSS)
+   
     Usability Testing for Agent & Customer Experience
+   
     Regression Testing After System Updates
+   
     Integration Testing (CRM, IVR, Chatbots, etc.)
+   
     Accessibility Testing for Inclusive Customer Support
+   
 
 5. Testing Different Contact Center Channels
 
