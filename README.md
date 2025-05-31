@@ -52,54 +52,94 @@ This repo will contain topics including :
 5. Testing Different Contact Center Channels
 
     Testing Voice Call Systems (PSTN, VoIP)
+   
     Testing IVR (Interactive Voice Response) Systems
+   
     Testing Chatbots & Virtual Assistants
+   
     Testing Live Chat Support
+   
     Testing Email Support Systems
+   
     Testing SMS & WhatsApp for Customer Service
+   
     Testing Social Media Support (Facebook, Twitter)
+   
     Testing Video Support & Co-Browsing
+   
     Testing Omnichannel Customer Journeys
+   
     Testing Self-Service Portals & Knowledge Bases
+   
 
-6. Automation in Contact Center Testing
+7. Automation in Contact Center Testing
 
     Automated vs. Manual Testing for Contact Centers
+   
     Best Test Automation Tools for Contact Centers
+   
     How to Automate IVR Testing
+   
     Automated Chatbot Testing Frameworks
+   
     AI-Powered Testing for Contact Centers
+   
     Scripting Automated Call Flows for Testing
+   
     CI/CD Pipelines for Contact Center Testing
+   
     Voice Recognition Testing Automation
+   
     Sentiment Analysis Testing Automation
+   
     Automated Reporting & Analytics for QA Teams
+   
 
-7. Performance & Load Testing
+9. Performance & Load Testing
 
     How to Simulate 10,000+ Concurrent Calls
+   
     Best Load Testing Tools for Contact Centers
+   
     Measuring Call Drop Rates & Failures
+   
     Testing Call Routing Logic Under Load
+   
     Latency & Jitter Testing for VoIP
+   
     Benchmarking Performance Metrics (ASA, AHT, FCR)
+   
     Testing During Peak Hours (Black Friday, Holidays)
+   
     Cloud vs. On-Premise Load Testing
+   
     Auto-Scaling Testing for Cloud Contact Centers
+   
     Real User Monitoring (RUM) for Performance
+   
 
-8. Security & Compliance Testing
+11. Security & Compliance Testing
 
     Penetration Testing for Contact Centers
+    
     Encryption Testing for Call Recordings
+    
     GDPR Compliance Testing for Data Privacy
+    
     HIPAA Testing for Healthcare Contact Centers
+    
     PCI-DSS Testing for Payment Security
+    
     Fraud Detection Testing in Call Centers
+    
     Authentication & Authorization Testing
+    
     Secure Call Recording Testing
+    
     Testing for Social Engineering Vulnerabilities
+    
     Audit Trail Testing for Compliance
+    
 
 7. AI & NLP Testing in Contact Centers
 
