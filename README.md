@@ -365,6 +365,7 @@ This repo will contain topics including :
 
     Contact Center Testing Checklist Before Go-Live
     Monthly Maintenance Testing Checklist
+    
     Pre-Holiday Season Testing Checklist
     Compliance Testing Checklist for Regulated Industries
     Security Testing Checklist for Contact Centers
@@ -374,7 +375,7 @@ This repo will contain topics including :
     Disaster Recovery Testing for Contact Centers
     Testing for Business Continuity in Call Centers
 
-28. Agent & Workforce Testing
+29. Agent & Workforce Testing
 
     How to Test Agent Onboarding Processes
     Gamified Testing for Agent Performance
@@ -387,7 +388,7 @@ This repo will contain topics including :
     Testing for Remote Agent Performance
     AI-Based Agent Coaching & Testing
 
-29. Global & Localization Testing
+30. Global & Localization Testing
 
     Testing Multilingual Contact Centers
     How to Test Regional Dialects & Accents
@@ -400,7 +401,7 @@ This repo will contain topics including :
     Testing for Right-to-Left (RTL) Language Support
     Testing Emergency Services Integration
 
-30. Miscellaneous Advanced Topics
+31. Miscellaneous Advanced Topics
 
     Testing for Zero-Touch Customer Service
     
