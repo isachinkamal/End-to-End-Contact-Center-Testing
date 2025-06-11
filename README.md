@@ -364,15 +364,23 @@ This repo will contain topics including :
 27. Best Practices & Checklists
 
     Contact Center Testing Checklist Before Go-Live
+    
     Monthly Maintenance Testing Checklist
     
     Pre-Holiday Season Testing Checklist
+    
     Compliance Testing Checklist for Regulated Industries
+    
     Security Testing Checklist for Contact Centers
+    
     Omnichannel Testing Best Practices
+    
     How to Conduct a Contact Center Audit
+    
     Agent Training & Testing Best Practices
+    
     Disaster Recovery Testing for Contact Centers
+    
     Testing for Business Continuity in Call Centers
 
 29. Agent & Workforce Testing
