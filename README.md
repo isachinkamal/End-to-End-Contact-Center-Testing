@@ -386,17 +386,26 @@ This repo will contain topics including :
 29. Agent & Workforce Testing
 
     How to Test Agent Onboarding Processes
+    
     Gamified Testing for Agent Performance
+    
     Testing AI Assistants for Live Agents
+    
     How to Measure Agent Productivity Through Testing
+    
     Testing Real-Time Agent Guidance Systems
+    
     How to Test Workforce Management (WFM) Tools
+    
     Testing Agent Scripting Tools
+    
     How to Test Agent Desktop Applications
+    
     Testing for Remote Agent Performance
+    
     AI-Based Agent Coaching & Testing
 
-30. Global & Localization Testing
+31. Global & Localization Testing
 
     Testing Multilingual Contact Centers
     How to Test Regional Dialects & Accents
@@ -409,7 +418,7 @@ This repo will contain topics including :
     Testing for Right-to-Left (RTL) Language Support
     Testing Emergency Services Integration
 
-31. Miscellaneous Advanced Topics
+32. Miscellaneous Advanced Topics
 
     Testing for Zero-Touch Customer Service
     
