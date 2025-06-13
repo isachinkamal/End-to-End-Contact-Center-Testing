@@ -408,17 +408,26 @@ This repo will contain topics including :
 31. Global & Localization Testing
 
     Testing Multilingual Contact Centers
+    
     How to Test Regional Dialects & Accents
+    
     Testing Time Zone Handling in Global Centers
+    
     Cultural Sensitivity Testing for Customer Support
+    
     Testing Compliance with Local Data Laws (e.g., GDPR, CCPA)
+    
     Testing Currency & Payment Methods in Different Regions
+    
     Testing Holiday-Specific Support Scenarios
+    
     Testing Call Routing Based on Geolocation
+    
     Testing for Right-to-Left (RTL) Language Support
+    
     Testing Emergency Services Integration
 
-32. Miscellaneous Advanced Topics
+33. Miscellaneous Advanced Topics
 
     Testing for Zero-Touch Customer Service
     
