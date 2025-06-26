@@ -143,25 +143,25 @@ This repo will contain topics including :
 
 ## 7. AI & NLP Testing in Contact Centers
 
-    Testing Natural Language Processing (NLP) Models
+    7.1 Testing Natural Language Processing (NLP) Models
    
-    How to Test AI-Powered Chatbots
+    7.2 How to Test AI-Powered Chatbots
    
-    Bias Testing in AI-Driven Customer Support
+    7.3 Bias Testing in AI-Driven Customer Support
    
-    Speech Recognition Accuracy Testing
+    7.4 Speech Recognition Accuracy Testing
    
-    Sentiment Analysis Testing for Customer Emotions
+    7.5 Sentiment Analysis Testing for Customer Emotions
    
-    Testing AI for Call Transcription
+    7.6 Testing AI for Call Transcription
    
-    Testing AI-Based Call Routing
+    7.7 Testing AI-Based Call Routing
    
-    AI vs. Human Agent Testing
+    7.8 AI vs. Human Agent Testing
    
-    Testing AI for Predictive Customer Support
+    7.9 Testing AI for Predictive Customer Support
    
-    Ethical AI Testing in Contact Centers
+    7.10 Ethical AI Testing in Contact Centers
 
 ## 8. IVR & Call Flow Testing
 
